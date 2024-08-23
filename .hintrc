@@ -1,5 +1,10 @@
 {
   "extends": [
     "development"
-  ]
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "meta-charset-utf-8": "off",
+    "axe/language": "off"
+  }
 }
