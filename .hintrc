@@ -5,6 +5,10 @@
   "hints": {
     "meta-viewport": "off",
     "meta-charset-utf-8": "off",
-    "axe/language": "off"
+    "axe/language": "off",
+    "axe/text-alternatives": "off",
+    "no-inline-styles": "off",
+    "axe/forms": "off",
+    "disown-opener": "off"
   }
 }

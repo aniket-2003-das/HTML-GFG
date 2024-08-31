@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Name</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>GFG</td>
+    <td>Yash</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>De shaw</td>
+    <td>Pragati</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<h2>Form Elements Example</h2>
+
+<form>
+  <!-- Label and Input -->
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+
+  <!-- Button -->
+  <button type="submit">Submit</button><br><br>
+
+  <!-- Select, Option, and Optgroup -->
+  <label for="country">Country:</label>
+  <select id="country" name="country">
+    <optgroup label="Europe">
+      <option value="germany">Germany</option>
+      <option value="france">France</option>
+    </optgroup>
+    <optgroup label="Americas">
+      <option value="mexico">Mexico</option>
+      <option value="usa">USA</option>
+    </optgroup>
+  </select><br><br>
+
+  <!-- Textarea -->
+  <label for="comments">Comments:</label><br>
+  <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+  <!-- Fieldset and Legend -->
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone"><br><br>
+  </fieldset><br><br>
+
+  <!-- Datalist -->
+  <label for="browser">Choose your browser:</label>
+  <input list="browsers" id="browser" name="browser">
+  <datalist id="browsers">
+    <option value="Chrome">
+    <option value="Firefox">
+    <option value="Safari">
+    <option value="Edge">
+  </datalist><br><br>
+
+  <!-- Output -->
+  <label for="range">Volume:</label>
+  <input type="range" id="range" name="range" min="0" max="100" oninput="output.value = range.value">
+  <output name="output" for="range">50</output>
+</form>
+
+</body>
+</html>
